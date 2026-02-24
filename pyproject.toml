@@ -1,0 +1,21 @@
+[project]
+name = "bike-rentals"
+version = "0.1.0"
+description = "predicting number of bikes available for rent"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.133.0",
+    "matplotlib>=3.10.8",
+    "mlflow>=1.27.0",
+    "pandas>=3.0.1",
+    "pyarrow>=23.0.1",
+    "pydantic>=2.12.5",
+    "scikit-learn>=1.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.15.2",
+]
